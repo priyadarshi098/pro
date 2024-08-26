@@ -1,0 +1,8 @@
+package corepractice;
+
+public class HashPractice {
+
+	public static void main(String... strings) {
+		
+	}
+}

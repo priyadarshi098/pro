@@ -1,0 +1,13 @@
+package com.thymeviews.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class ThymeviewsController {
+	
+	public String getAbout(Model model) {
+		return "about";
+	}
+
+}

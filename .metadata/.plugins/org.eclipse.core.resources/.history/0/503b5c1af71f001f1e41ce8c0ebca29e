@@ -1,0 +1,12 @@
+package corepractice;
+
+public class HashPractice {
+	
+	static void arrayElementFrequencyCount(int[] arr) {
+		
+	}
+
+	public static void main(String... strings) {
+		arrayElementFrequencyCount(new int[] {8,7,6,5,2});
+	}
+}

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>footer</title>
+</head>
+<body>
+	<footer>
+		<div th:fragment="footer1">
+			<h1>this is service footer</h1>
+		</div>
+	</footer>
+</body>
+</html>

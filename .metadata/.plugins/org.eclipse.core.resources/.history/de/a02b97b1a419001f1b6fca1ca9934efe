@@ -1,0 +1,3 @@
+spring.application.name=readingList
+server.port=9999
+spring.mvc.view.prefix=.jsp

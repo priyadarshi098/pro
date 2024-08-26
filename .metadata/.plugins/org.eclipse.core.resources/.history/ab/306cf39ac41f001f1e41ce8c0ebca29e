@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h1>This is my conditional page</h1>
+	<h1>the user is <span th:style="${isActive} ? 'color:green' : 'color:red' " th:text="${isActive} ? 'active' : 'inactive'"></span></h1>
+	<div th:if="${gender} == 'M'">Male</div>
+	<div th:unless="${gender} == 'F'">Male</div>
+</body>
+</html>
